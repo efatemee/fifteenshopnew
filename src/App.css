@@ -1,0 +1,11 @@
+.container {
+  padding: 0px 200px;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Yekan';
+  src: url('../src/assets/font/iryekan/BYekan.ttf')
+  format('truetype');
+}

@@ -1,0 +1,93 @@
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+    
+}
+.navbarwrapper{
+    position: fixed;
+    background-color: #fff;
+   box-shadow: rgba(95, 94, 94, 0.345) 0px 2px 8px 0px;
+   height: 80px;
+   width: 1100px;
+   border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.navbarwrapper img{
+    width: 200px;
+    margin: 4px 0 0 20px;
+    
+
+}
+.buttonstyle {
+    display: flex;
+    padding: 20px 0 0 0;
+    
+}
+.buttonstyle button {
+    
+    width: 55px;
+    height: 55px;
+    
+}
+.buttonstyle span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: stretch;
+   font-size: 8px;
+   font-weight: 800;
+   font-family: 'Yekan';
+   color: #676565;
+   margin: 0 0 10px 0;
+}
+
+.navbarwrapper button{
+    border-radius: 10px;
+    border-style: none;
+    margin: 0 10px;
+}
+.searchbox{
+    display: flex;
+    
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 100%;
+    align-items: center;
+}
+.searchbox input{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #c9c9c983;
+    border-style: none;
+    color: rgb(65, 65, 65);
+    text-align: right;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Yekan' ;
+    
+    
+    
+}
+
+
+.searchbox button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px  ;
+    position: relative;
+    left: 35px;
+    background-color: #1DCE0A;
+    color: aliceblue;
+}
+@font-face {
+  font-family: 'yekan';
+  src: url('../../assets/font/iryekan/BYekan.ttf')
+  ;
+}
