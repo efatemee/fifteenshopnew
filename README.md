@@ -10,3 +10,26 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ruhollah82/OTECH-front.git
+   ```
+2. **Navigate into the project directory:**
+   ```sh
+   cd OTECH-front
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+## Running the Development Server
+
+To start the development server, run:
+
+```sh
+npm run dev
+```
