@@ -4,6 +4,7 @@ import img from "../../assets/image/تصویر-شاخص-صفحه-اصلی.webp";
 import Bottongreen from "../../components/button/buttongreen";
 import Bottongray from "../../components/button/buttongray";
 import img2 from "../../assets/image/عکس-شاخص-صفحه-اصلی.webp";
+import img3 from "../../assets/image/مراحل-خرید2.webp"
 function Home() {
   return (
     <>
@@ -42,6 +43,9 @@ function Home() {
             </p>
           </section>
           <img src={img2} alt="image products" />
+        </div>
+        <div className={styled.buysteps}>
+          <img src={img3} alt="buy steps" />
         </div>
       </div>
     </>

@@ -75,3 +75,12 @@
     flex-direction: row-reverse;
     align-items: center;
 }
+.buysteps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buysteps img{
+    width: 60%;
+
+}
