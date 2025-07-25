@@ -15,11 +15,11 @@ If you are developing a production application, we recommend using TypeScript wi
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/ruhollah82/OTECH-front.git
+   git clone https://github.com/efatemee/fifteenshopnew.git
    ```
 2. **Navigate into the project directory:**
    ```sh
-   cd OTECH-front
+   cd fifteenshopnew
    ```
 3. **Install dependencies:**
    ```sh
