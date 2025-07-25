@@ -1,0 +1,40 @@
+.buttongray {
+    background-color: #7d7d7d;
+    border-style: none;
+    border-radius: 15px;
+    padding: 0 10px;
+    display:inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+     position:relative; 
+     overflow: hidden;
+     margin: 40px 0 40px 20px;
+}
+.buttongray p{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: medium;
+    position: relative; 
+    z-index: 1; 
+    }
+.buttongray svg{
+     position: relative; 
+    z-index: 1; 
+    }
+.buttongray::before {
+    content: '';
+    position: absolute;
+    top: -100%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#1DCE0A; /* رنگ خاکستری با کمی شفافیت */
+    transition: top 0.4s ease; /* انتقال موقعیت */
+    z-index: 0; /* قرار دادن لایه در پشت متن */
+}
+
+.buttongray:hover::before {
+    top: 0; /* حرکت به پایین */
+}
+       

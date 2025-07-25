@@ -10,7 +10,7 @@
     background-color: #fff;
    box-shadow: rgba(95, 94, 94, 0.345) 0px 2px 8px 0px;
    height: 80px;
-   
+   z-index: 1000;
    border-radius: 10px;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
    justify-content: stretch;
    font-size: 8px;
    font-weight: 800;
-   font-family: 'Yekan';
+   font-family:"Rubik"; 
    color: #676565;
    margin: 0 0 10px 0;
 }
@@ -70,12 +70,14 @@
     text-align: right;
     font-size: 15px;
     font-weight: 1000;
-    font-family: 'Yekan' ;
+    font-family:"Rubik"; 
     
     
     
 }
-
+input:focus{
+    outline: none;
+}
 
 .searchbox button{
     width: 50px;
@@ -86,11 +88,6 @@
     background-color: #1DCE0A;
     color: aliceblue;
 }
-@font-face {
-  font-family: 'yekan';
-  src: url('../../assets/font/iryekan/BYekan.ttf')
-  ;
-}
 
 .sectionend{
     display: flex;
@@ -100,6 +97,7 @@
     box-shadow: rgba(95, 94, 94, 0.345) 0px 2px 8px 0px;
     border-radius: 8px;
     justify-content: end;
+    color:rgb(65, 64, 64);
    
 }
 .sectionend ul{
@@ -111,8 +109,8 @@
 .sectionend li{
     display: flex;
     margin: 0 20px;
-    font-size:x-small;
-    font-family: 'Yekan' ;
+    font-size:small;
+    font-family:"Rubik"; 
 
 }
 h3{

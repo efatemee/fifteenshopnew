@@ -1,0 +1,77 @@
+.txtshop{
+    text-align: right;
+     display: flex;    
+     flex-direction: row-reverse;     
+     justify-content: space-between; 
+     margin: 30px 0;                               
+}
+.txtshop h1{
+     padding: 20px 0;
+     font-weight: bold;
+     font-size: 25px;
+}
+.txtshop span{
+    color: #1DCE0A;
+}
+.txtshop p{
+    color: rgb(105, 105, 105);
+    padding: 0 5px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.txtshop img{
+    width: 600px;
+}
+.txtshop section{
+    margin: 30px 0;
+}
+
+
+.txt2shop{
+    text-align: right;
+     display: flex;    
+     flex-direction: row-reverse;     
+     justify-content: space-between; 
+     margin: 30px 0;                                  
+}
+.txt2shop h1{
+   
+     font-weight: bold;
+     font-size: 25px;
+     margin: 0;
+     
+}
+.txt2shop span{
+    color: #1DCE0A;
+}
+.txt2shop p{
+    color: rgb(105, 105, 105);
+    padding: 0 5px 0 40px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.txt2shop img{
+    width: 400px;
+    margin: 0 0 0 100px;
+}
+.txt2shop section{
+    margin: 100px 0;
+    
+}
+.txt2shop button{
+    background-color: #1DCE0A;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 0 0 10px;
+}
+.txt2shop button:hover{
+    background-color: #8f8f8f;
+}
+.moraba {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
