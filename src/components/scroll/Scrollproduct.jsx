@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import ProductCard from "../productcard/productcard";
 import "./scroll.css";
+import Buttongreen from "../button/buttongreen";
 
 const ScrollProduct = ({ category = "", title = "محصولات پیشنهادی" }) => {
   const scrollRef = useRef(null);
@@ -50,11 +51,14 @@ const ScrollProduct = ({ category = "", title = "محصولات پیشنهادی
       .catch((err) => console.error("خطا در دریافت محصولات:", err));
   }, [category]);
 
-
   return (
     <div className="carousel-container">
-      <h2 className="carousel-title">{title}</h2>
-
+      <div className="carousel-title">
+        <button className="butt"></button>
+        <h2>{title}</h2>
+        <div className="line"></div>
+        <Buttongreen title="مشاهده همه" />
+      </div>
       <button className="scroll-button left" onClick={() => scroll("left")}>
         ◀
       </button>

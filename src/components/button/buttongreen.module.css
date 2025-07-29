@@ -9,7 +9,7 @@
     align-items: center;
      position: relative; 
      overflow: hidden;
-     margin: 40px 0 40px 20px;
+     margin: 40px 0 40px 0;
 }
 .buttongreen p{
     color: aliceblue;
