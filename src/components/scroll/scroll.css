@@ -1,0 +1,52 @@
+
+  .carousel-container {
+  position: relative;
+  padding: 2rem;
+  background: linear-gradient(to right, #f9fafb, #fff);
+  overflow: hidden;
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-scroll {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  flex-direction: row-reverse;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(47, 51, 58, 0.425);
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 9999px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+}
+
+.scroll-button:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.scroll-button.left {
+  left: 1rem;
+}
+
+.scroll-button.right {
+  right: 1rem;
+}
+
+

@@ -4,7 +4,10 @@ import img from "../../assets/image/تصویر-شاخص-صفحه-اصلی.webp";
 import Bottongreen from "../../components/button/buttongreen";
 import Bottongray from "../../components/button/buttongray";
 import img2 from "../../assets/image/عکس-شاخص-صفحه-اصلی.webp";
-import img3 from "../../assets/image/مراحل-خرید2.webp"
+import img3 from "../../assets/image/مراحل-خرید2.webp";
+
+import ScrollProduct from "../../components/scroll/Scrollproduct";
+
 function Home() {
   return (
     <>
@@ -28,13 +31,14 @@ function Home() {
           </section>
           <img src={img} alt="image products" />
         </div>
+        <ScrollProduct category="جدید" title="محصولات جدید" />
         <div className={styled.txt2shop}>
           <section>
             <div className={styled.moraba}>
               <button></button>
-            <h1>
-              حس خوب <span>رسید </span>
-            </h1>
+              <h1>
+                حس خوب <span>رسید </span>
+              </h1>
             </div>
             <p>
               همه‌ی ما وقتی کالایی را به صورت اینترنتی سفارش میدهیم ، لحضه شماری
@@ -44,9 +48,11 @@ function Home() {
           </section>
           <img src={img2} alt="image products" />
         </div>
+        <ScrollProduct />
         <div className={styled.buysteps}>
           <img src={img3} alt="buy steps" />
         </div>
+        <ScrollProduct category="تولیدی" title="محصولات تولیدی" />
       </div>
     </>
   );

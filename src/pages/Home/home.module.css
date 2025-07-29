@@ -46,13 +46,19 @@
 }
 .txt2shop p{
     color: rgb(105, 105, 105);
-    padding: 0 5px 0 40px;
+    padding: 0 5px 0 0px;
     font-weight: 500;
     line-height: 25px;
+    width: 600px;
 }
 .txt2shop img{
+    margin: 0 80px;
     width: 400px;
-    margin: 0 0 0 100px;
+    border-style: solid;
+    border-width:  1px 1px 1px 1px ;
+    border-color: #c9c9c9;
+    border-radius: 50px 50px 500px 500px;
+    box-shadow: 0 5px 10px 0 rgba(43, 43, 43, 0.359);
 }
 .txt2shop section{
     margin: 100px 0;
@@ -81,6 +87,6 @@
     justify-content: center;
 }
 .buysteps img{
-    width: 60%;
+    width: 600px;
 
 }

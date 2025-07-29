@@ -1,0 +1,186 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "کفش اسپرت",
+      "price": "480,000 ",
+      "image": "../../src/assets/image/product/1055670.jpg",
+      "category": "حراجی"
+    },
+    {
+      "id": 2,
+      "title": "کت شلوار مردانه",
+      "price": "1,200,000 ",
+      "image": "../../src/assets/image/product/E-57.jpg",
+      "category": "تولیدی"
+    },
+    {
+      "id": 3,
+      "title": "ساعت مچی",
+      "price": "950,000 ",
+      "image": "../../src/assets/image/product/E-60 (1).webp",
+      "category": "تولیدی"
+    },
+    {
+      "id": 4,
+      "title": "عینک آفتابی",
+      "price": "320,000 ",
+      "image": "../../src/assets/image/product/E-60.webp",
+      "category": "حراجی"
+    },
+    {
+      "id": 5,
+      "title": "کوله پشتی",
+      "price": " 670,000",
+      "image": "../../src/assets/image/product/F-77.webp",
+      "category": "جدید"
+    },
+    {
+      "id": 1,
+      "titleٍ": "کفش اسپرت",
+      "price": "480,000 ",
+      "image": "../../src/assets/image/product/G-444.webp",
+      "category": "جدید"
+    },
+    {
+      "id": 2,
+      "title": "کت شلوار مردانه",
+      "price": "1,200,000 ",
+      "image": "../../src/assets/image/product/G-450.webp",
+      "category": "جدید"
+    },
+    {
+      "id": 3,
+      "title": "ساعت مچی",
+      "price": "950,000 ",
+      "image": "../../src/assets/image/product/G-450.webp",
+      "category": "جدید"
+    },
+    {
+      "id": 4,
+      "title": "عینک آفتابی",
+      "price": "320,000 ",
+      "image": "../../src/assets/image/product/G-453.webp",
+      "category": "تولیدی"
+    },
+    {
+      "id": 5,
+      "title": "کوله پشتی",
+      "price": "670,000 ",
+      "image": "../../src/assets/image/product/G-600.jpg",
+      "category": "تولیدی"
+    },
+    {
+      "id": 6,
+      "title": "کفش چرم",
+      "price": "850,000 ",
+      "image": "../../src/assets/image/product/G-613.jpg",
+      "category": "تولیدی"
+    },
+    {
+      "id": 7,
+      "title": "پیراهن مردانه",
+      "price": "390,000 ",
+      "image": "../../src/assets/image/product/N-23.webp",
+      "category": "تولیدی"
+    },
+    {
+      "id": 8,
+      "title": "لباس ورزشی",
+      "price": "540,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "تولیدی"
+    },
+    {
+      "id": 9,
+      "title": "کیف دستی",
+      "price": "430,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "تولیدی"
+    },
+    {
+      "id": 10,
+      "title": "شلوار جین",
+      "price": "510,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "تولیدی"
+    },
+    {
+      "id": 11,
+      "title": "کوله پشتی",
+      "price": "670,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 12,
+      "titleٍ": "کفش اسپرت",
+      "price": "480,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 13,
+      "title": "کت شلوار مردانه",
+      "price": "1,200,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 14,
+      "title": "ساعت مچی",
+      "price": "950,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 15,
+      "title": "عینک آفتابی",
+      "price": "320,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 16,
+      "title": "کوله پشتی",
+      "price": "670,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 17,
+      "title": "کفش چرم",
+      "price": "850,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 18,
+      "title": "پیراهن مردانه",
+      "price": "390,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 19,
+      "title": "لباس ورزشی",
+      "price": "540,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 20,
+      "title": "کیف دستی",
+      "price": "430,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    },
+    {
+      "id": 21,
+      "title": "شلوار جین",
+      "price": "510,000 ",
+      "image": "https://via.placeholder.com/300x300",
+      "category": "جدید"
+    }
+  ]
+}
