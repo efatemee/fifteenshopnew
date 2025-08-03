@@ -2,7 +2,7 @@ import styled from "./footer.module.css";
 import img from "../../assets/image/لوگو-فروشگاه-پانزده.webp";
 function Footer() {
   return (
-    <div className={styled.paddtop}>
+    <>
       <div className={styled.all}>
         <div className="container">
           <div className={styled.boxgreen}>
@@ -10,187 +10,270 @@ function Footer() {
               <span>7 روز ضمانت بازگشت کالا</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40px"
-                height="40px"
+                width="40"
+                height="40"
                 viewBox="0 0 24 24"
               >
-                <g fill="currentColor">
-                  <circle cx={12} cy={8.143} r={2.5} fillOpacity={0}>
+                <g
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-dasharray="2 4"
+                    stroke-dashoffset="6"
+                    d="M12 21c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9"
+                  >
+                    <animate
+                      attributeName="stroke-dashoffset"
+                      dur="0.6s"
+                      repeatCount="indefinite"
+                      values="6;0"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="32"
+                    stroke-dashoffset="32"
+                    d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9"
+                  >
                     <animate
                       fill="freeze"
-                      attributeName="fill-opacity"
-                      begin="1.05s"
-                      dur="0.263s"
-                      values="0;1"
-                    ></animate>
-                  </circle>
-                  <path d="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z">
+                      attributeName="stroke-dashoffset"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="32;0"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="10"
+                    stroke-dashoffset="10"
+                    d="M12 16v-7.5"
+                  >
                     <animate
                       fill="freeze"
-                      attributeName="d"
-                      begin="1.313s"
-                      dur="0.35s"
-                      values="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M12 21C15.3 21 18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19C20 21.2 16.4 23 12 23C7.6 23 4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21z"
-                    ></animate>
+                      attributeName="stroke-dashoffset"
+                      begin="0.5s"
+                      dur="0.2s"
+                      values="10;0"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="6"
+                    stroke-dashoffset="6"
+                    d="M12 8.5l3.5 3.5M12 8.5l-3.5 3.5"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      begin="0.7s"
+                      dur="0.2s"
+                      values="6;0"
+                    />
                   </path>
                 </g>
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  strokeDasharray={40}
-                  strokeDashoffset={40}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 18c0 0 -5.14 -6 -5.14 -9.86c0 -2.84 2.3 -5.14 5.14 -5.14c2.84 0 5.14 2.3 5.14 5.14c0 3.86 -5.14 9.86 -5.14 9.86Z"
-                >
-                  <animate
-                    fill="freeze"
-                    attributeName="stroke-dashoffset"
-                    dur="0.875s"
-                    values="40;0"
-                  ></animate>
-                </path>
               </svg>
             </div>
             <div>
               <span>پشتیبانی 24 ساعت</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40px"
-                height="40px"
+                width="40"
+                height="40"
                 viewBox="0 0 24 24"
               >
-                <g fill="currentColor">
-                  <circle cx={12} cy={8.143} r={2.5} fillOpacity={0}>
+                <g
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-dasharray="64"
+                    stroke-dashoffset="64"
+                    d="M8 3c0.5 0 2.5 4.5 2.5 5c0 1 -1.5 2 -2 3c-0.5 1 0.5 2 1.5 3c0.39 0.39 2 2 3 1.5c1 -0.5 2 -2 3 -2c0.5 0 5 2 5 2.5c0 2 -1.5 3.5 -3 4c-1.5 0.5 -2.5 0.5 -4.5 0c-2 -0.5 -3.5 -1 -6 -3.5c-2.5 -2.5 -3 -4 -3.5 -6c-0.5 -2 -0.5 -3 0 -4.5c0.5 -1.5 2 -3 4 -3Z"
+                  >
                     <animate
                       fill="freeze"
-                      attributeName="fill-opacity"
-                      begin="1.05s"
-                      dur="0.263s"
-                      values="0;1"
-                    ></animate>
-                  </circle>
-                  <path d="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z">
+                      attributeName="stroke-dashoffset"
+                      dur="0.6s"
+                      values="64;0"
+                    />
+                    <animateTransform
+                      id="lineMdPhoneCallLoop0"
+                      fill="freeze"
+                      attributeName="transform"
+                      begin="0.6s;lineMdPhoneCallLoop0.begin+2.7s"
+                      dur="0.5s"
+                      type="rotate"
+                      values="0 12 12;15 12 12;0 12 12;-12 12 12;0 12 12;12 12 12;0 12 12;-15 12 12;0 12 12"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="4"
+                    stroke-dashoffset="4"
+                    d="M15.76 8.28c-0.5 -0.51 -1.1 -0.93 -1.76 -1.24M15.76 8.28c0.49 0.49 0.9 1.08 1.2 1.72"
+                  >
                     <animate
                       fill="freeze"
-                      attributeName="d"
-                      begin="1.313s"
-                      dur="0.35s"
-                      values="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M12 21C15.3 21 18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19C20 21.2 16.4 23 12 23C7.6 23 4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21z"
-                    ></animate>
+                      attributeName="stroke-dashoffset"
+                      begin="lineMdPhoneCallLoop0.begin+0s"
+                      dur="2.7s"
+                      keyTimes="0;0.111;0.259;0.37;1"
+                      values="4;0;0;4;4"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="6"
+                    stroke-dashoffset="6"
+                    d="M18.67 5.35c-1 -1 -2.26 -1.73 -3.67 -2.1M18.67 5.35c0.99 1 1.72 2.25 2.08 3.65"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      begin="lineMdPhoneCallLoop0.begin+0.2s"
+                      dur="2.7s"
+                      keyTimes="0;0.074;0.185;0.333;0.444;1"
+                      values="6;6;0;0;6;6"
+                    />
                   </path>
                 </g>
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  strokeDasharray={40}
-                  strokeDashoffset={40}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 18c0 0 -5.14 -6 -5.14 -9.86c0 -2.84 2.3 -5.14 5.14 -5.14c2.84 0 5.14 2.3 5.14 5.14c0 3.86 -5.14 9.86 -5.14 9.86Z"
-                >
-                  <animate
-                    fill="freeze"
-                    attributeName="stroke-dashoffset"
-                    dur="0.875s"
-                    values="40;0"
-                  ></animate>
-                </path>
               </svg>
             </div>
             <div>
               <span>ضمانت اصالت کالا</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40px"
-                height="40px"
+                width="40"
+                height="40"
                 viewBox="0 0 24 24"
               >
-                <g fill="currentColor">
-                  <circle cx={12} cy={8.143} r={2.5} fillOpacity={0}>
-                    <animate
-                      fill="freeze"
-                      attributeName="fill-opacity"
-                      begin="1.05s"
-                      dur="0.263s"
-                      values="0;1"
-                    ></animate>
-                  </circle>
-                  <path d="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z">
-                    <animate
-                      fill="freeze"
-                      attributeName="d"
-                      begin="1.313s"
-                      dur="0.35s"
-                      values="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M12 21C15.3 21 18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19C20 21.2 16.4 23 12 23C7.6 23 4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21z"
-                    ></animate>
-                  </path>
-                </g>
                 <path
-                  fill="none"
-                  stroke="currentColor"
-                  strokeDasharray={40}
-                  strokeDashoffset={40}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 18c0 0 -5.14 -6 -5.14 -9.86c0 -2.84 2.3 -5.14 5.14 -5.14c2.84 0 5.14 2.3 5.14 5.14c0 3.86 -5.14 9.86 -5.14 9.86Z"
+                  fill="#fff"
+                  fill-opacity="0"
+                  d="M17 14v4c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-4Z"
                 >
                   <animate
                     fill="freeze"
-                    attributeName="stroke-dashoffset"
-                    dur="0.875s"
-                    values="40;0"
-                  ></animate>
+                    attributeName="fill-opacity"
+                    begin="0.8s"
+                    dur="0.5s"
+                    values="0;1"
+                  />
                 </path>
+                <g
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-dasharray="48"
+                    stroke-dashoffset="48"
+                    d="M17 9v9c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-9Z"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      dur="0.6s"
+                      values="48;0"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="14"
+                    stroke-dashoffset="14"
+                    d="M17 9h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      begin="0.6s"
+                      dur="0.2s"
+                      values="14;0"
+                    />
+                  </path>
+                  <mask id="lineMdCoffeeHalfEmptyFilledLoop0">
+                    <path
+                      stroke="#fff"
+                      d="M8 0c0 2-2 2-2 4s2 2 2 4-2 2-2 4 2 2 2 4M12 0c0 2-2 2-2 4s2 2 2 4-2 2-2 4 2 2 2 4M16 0c0 2-2 2-2 4s2 2 2 4-2 2-2 4 2 2 2 4"
+                    >
+                      <animateMotion
+                        calcMode="linear"
+                        dur="3s"
+                        path="M0 0v-8"
+                        repeatCount="indefinite"
+                      />
+                    </path>
+                  </mask>
+                  <rect
+                    width="24"
+                    height="0"
+                    y="7"
+                    fill="#fff"
+                    mask="url(#lineMdCoffeeHalfEmptyFilledLoop0)"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="y"
+                      begin="0.8s"
+                      dur="0.6s"
+                      values="7;2"
+                    />
+                    <animate
+                      fill="freeze"
+                      attributeName="height"
+                      begin="0.8s"
+                      dur="0.6s"
+                      values="0;5"
+                    />
+                  </rect>
+                </g>
               </svg>
             </div>
             <div>
               <span>ارسال سریع</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40px"
-                height="40px"
+                width="40"
+                height="40"
                 viewBox="0 0 24 24"
               >
-                <g fill="currentColor">
-                  <circle cx={12} cy={8.143} r={2.5} fillOpacity={0}>
-                    <animate
-                      fill="freeze"
-                      attributeName="fill-opacity"
-                      begin="1.05s"
-                      dur="0.263s"
-                      values="0;1"
-                    ></animate>
-                  </circle>
-                  <path d="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z">
-                    <animate
-                      fill="freeze"
-                      attributeName="d"
-                      begin="1.313s"
-                      dur="0.35s"
-                      values="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M12 21C15.3 21 18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19C20 21.2 16.4 23 12 23C7.6 23 4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21z"
-                    ></animate>
-                  </path>
-                </g>
+                <circle cx="12" cy="9" r="2.5" fill="#fff" fill-opacity="0">
+                  <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="0.7s"
+                    dur="0.15s"
+                    values="0;1"
+                  />
+                </circle>
                 <path
                   fill="none"
-                  stroke="currentColor"
-                  strokeDasharray={40}
-                  strokeDashoffset={40}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 18c0 0 -5.14 -6 -5.14 -9.86c0 -2.84 2.3 -5.14 5.14 -5.14c2.84 0 5.14 2.3 5.14 5.14c0 3.86 -5.14 9.86 -5.14 9.86Z"
+                  stroke="#fff"
+                  stroke-dasharray="48"
+                  stroke-dashoffset="48"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z"
                 >
                   <animate
                     fill="freeze"
                     attributeName="stroke-dashoffset"
-                    dur="0.875s"
-                    values="40;0"
-                  ></animate>
+                    dur="0.6s"
+                    values="48;0"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    dur="3s"
+                    keyTimes="0;0.3;0.4;0.54;0.6;0.68;0.7;1"
+                    repeatCount="indefinite"
+                    type="rotate"
+                    values="0 12 20.5;0 12 20.5;-8 12 20.5;0 12 20.5;5 12 20.5;-2 12 20.5;0 12 20.5;0 12 20.5"
+                  />
                 </path>
               </svg>
             </div>
@@ -324,7 +407,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 export default Footer;

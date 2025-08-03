@@ -9,9 +9,12 @@
     border-radius: 15px;
     color: white;
     overflow: hidden;
-    position: relative;
-    bottom:40px;
+    position: absolute;
+    top: -40px;
     z-index: 10;
+    width: 80%;
+    
+    
 }
 .boxgreen div{
     flex: 1;
@@ -128,15 +131,10 @@
 .all{
     background-color: #f3f3f3;
     border-top: 1px solid rgba(209, 209, 209, 0.693);
-    position: absolute;
+    position: relative;
     z-index: 1;
     bottom: 0;
     width: 100%;
-    
-}
-.paddtop{
-    height: 450px;
-    background-color: #6b6a6a;
-    position: relative;
-    z-index: 1;
+    overflow: visible;
+    padding-top: 50px;
 }
