@@ -7,6 +7,7 @@ import img2 from "../../assets/image/عکس-شاخص-صفحه-اصلی.webp";
 import img3 from "../../assets/image/مراحل-خرید2.webp";
 
 import ScrollProduct from "../../components/scroll/Scrollproduct";
+import Footer from "../../components/footer/footer";
 
 function Home() {
   return (
@@ -54,6 +55,7 @@ function Home() {
         </div>
         <ScrollProduct category="تولیدی" title="محصولات تولیدی" />
       </div>
+      <Footer/>
     </>
   );
 }

@@ -8,6 +8,7 @@
     font-family:"Rubik"; 
     scrollbar-color: #1DCE0A #f1f1f1; 
     scrollbar-width: 10px; 
+    flex-direction: row-reverse;
 }
 
 

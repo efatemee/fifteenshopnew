@@ -1,6 +1,142 @@
-.boxmini div{
+.boxgreen{
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 1px solid #1DCE0A;
+    background-color: #1DCE0A;
+    height: 70px;
+    border-radius: 15px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    bottom:40px;
+    z-index: 10;
+}
+.boxgreen div{
+    flex: 1;
+    white-space: nowrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boxgreen > div:not(:last-of-type) {
+  border-left: 1px solid white;
+}
+.content{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+.links {
+    color: #898989;
+    width: 20%;
+    height: 100%;
+    padding:0px 10px;
+    font-weight: 600;
+}
+.help{
+    color: #898989;
+    width: 20%;
+    height: 100%;
+    padding:0px 10px;
+    font-weight: 600;
+}
+.logo{
+    color: #898989;
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    font-weight: 600;
+    position: relative;
+     flex-direction: column;
+}
+.logo img{
+    width: 300px;
+}
+.moraba{
+    background-color: #1DCE0A;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 0 0 10px;
+
+}
+.moraba:hover{
+    background-color: #6b6a6a;
+}
+
+.links section{
+    display: flex;
+    align-items:center;
+    text-align: right;
+    margin-top: 20px;
+    
+}
+.help section{
+    display: flex;
+    align-items:center;
+    text-align: right;
+    margin-top: 20px;
+}
+.links h3{
+    padding: 0;
+    margin: 0;
+    
+}
+.help h3{
+    padding: 0;
+    margin: 0;
+    
+}
+.help ul,.links ul{
+    direction: rtl;
+    text-align: right;
+    list-style: none;
+   padding: 0 0;
+   
+}
+.help ul li::before,.links ul li::before{
+    content: '•';
+    align-items: baseline;
+    font-size: 40px;
+    color: #6b6a6a;
+    position: 100px;
+    vertical-align: middle;
+    border-bottom: 1px solid #777777;
+}
+.help ul li:hover::before,.links ul li:hover::before{
+    color: #1DCE0A;
+}
+.help li,.links li{
+    border-bottom: 1px solid #777777;
+    
+}
+.logo section{
+    display: flex;
+    justify-content:start;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+.all{
+    background-color: #f3f3f3;
+    border-top: 1px solid rgba(209, 209, 209, 0.693);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    
+}
+.paddtop{
+    height: 450px;
+    background-color: #6b6a6a;
+    position: relative;
+    z-index: 1;
 }
