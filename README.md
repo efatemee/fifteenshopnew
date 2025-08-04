@@ -33,3 +33,7 @@ To start the development server, run:
 ```sh
 npm run dev
 ```
+
+```sh
+npx json-server --watch public/data/db.json --port 3000
+```
