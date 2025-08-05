@@ -5,7 +5,6 @@ import Bottongreen from "../../components/button/buttongreen";
 import Bottongray from "../../components/button/buttongray";
 import img2 from "../../assets/image/عکس-شاخص-صفحه-اصلی.webp";
 import img3 from "../../assets/image/مراحل-خرید2.webp";
-
 import ScrollProduct from "../../components/scroll/Scrollproduct";
 import Footer from "../../components/footer/footer";
 

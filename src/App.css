@@ -1,5 +1,5 @@
 .container {
-  padding: 0px 10%;
+  padding: 0px 8%;
   overflow-x: hidden;
 }
 *{
@@ -8,6 +8,10 @@
     scrollbar-color: #1DCE0A #f1f1f1; 
     scrollbar-width: 10px; 
     flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+  
+
 }
 
 

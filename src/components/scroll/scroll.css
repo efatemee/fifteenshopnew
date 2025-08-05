@@ -2,7 +2,7 @@
   .carousel-container {
   position: relative;
   padding: 2rem;
-  background: linear-gradient(to right, #f9fafb, #fff);
+  background-color: white;
   overflow: hidden;
 }
 

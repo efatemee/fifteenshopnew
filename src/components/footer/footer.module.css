@@ -1,8 +1,8 @@
 .boxgreen{
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-self: center;
+    justify-content: space-around;
     border: 1px solid #1DCE0A;
     background-color: #1DCE0A;
     height: 70px;

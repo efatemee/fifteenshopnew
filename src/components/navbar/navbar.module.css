@@ -8,15 +8,15 @@
 .navbarwrapper{
     position: fixed;
     background-color: #fff;
-   box-shadow: rgba(95, 94, 94, 0.345) 0px 2px 8px 0px;
-   height: 80px;
-   z-index: 1000;
-   border-radius: 10px;
+    box-shadow: rgba(95, 94, 94, 0.345) 0px 2px 8px 0px;
+    height: 80px;
+    z-index: 1000;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-around;
-   padding: 0 20px;
+    padding: 0 20px;
 }
 .navbarwrapper img{
     width: 200px;
@@ -91,8 +91,8 @@ input:focus{
 
 .sectionend{
     display: flex;
-    padding: 70px 0 0 0;
-    margin: 0 250px;
+    padding: 80px 0 0 0;
+    margin: 0 15%;
     background-color: #f1eeee;
     box-shadow: rgba(95, 94, 94, 0.345) 0px 2px 8px 0px;
     border-radius: 8px;
@@ -108,10 +108,10 @@ input:focus{
 }
 .sectionend li{
     display: flex;
-    margin: 0 20px;
+    margin: 20px 20px;
     font-size:small;
     font-family:"Rubik"; 
-
+    align-items: center;
 }
 h3{
     padding: 0 10px;

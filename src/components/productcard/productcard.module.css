@@ -2,7 +2,7 @@
 .product_card {
   min-width: 205px;
   height: 350px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   
   overflow: hidden;
@@ -11,6 +11,7 @@
   transition: all 0.3s ease;
   align-items: center;
   justify-content: center;
+  
 }
 
 .product_card:hover {
